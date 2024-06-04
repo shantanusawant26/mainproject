@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
 })
 export class CarouselComponent {
   images = [
-    'assets/img/Kids.jpg',
-    'assets/img/Scho2.jpg',
-    'assets/img/STEAM.jpg',
-    'assets/img/Summ4.jpg',
-    'assets/img/Summ5.jpg'
+    '../../assets/img/Kids.jpg',
+    '../../assets/img/Scho2.jpg',
+    '../../assets/img/STEAM.jpg',
+    '../../assets/img/Summ4.jpg',
+    '../../assets/img/Summ5.jpg'
   ];
 
   currentIndex = 0;
