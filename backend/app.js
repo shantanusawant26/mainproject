@@ -17,9 +17,9 @@ app.use(cors());
 app.use('/resume', express.static('resume'));
 
 
-app.use(cors({
-    origin: 'http://localhost:4200' // Replace with your frontend URL
-  }));
+// app.use(cors({
+//     origin: 'http://localhost:4200' // Replace with your frontend URL
+//   }));
 app.use(function(req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
