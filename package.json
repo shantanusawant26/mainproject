@@ -5,14 +5,13 @@
 
     "ng": "ng",
 
+    "start": "ng serve && cd backend && node server.js",  
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
 
-
-
-      "start": "ng serve",
-      "build": "ng build --prod",
-      "serve": "vercel dev",
-      "deploy": "vercel --prod"
-    
+   
+     
 
   },
   "private": true,
